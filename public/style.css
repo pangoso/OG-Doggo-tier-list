@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto";
+    margin: 0;
+}
+
+header {
+    height: 7%;
+    background: linear-gradient(90deg, #B5838D 1.18%, #E5989B 100%);
+    color: beige;
+    padding: 20px;
+    font-size: 45px;
+    text-align: center;
+}
+
+form {
+    border: 2px solid #FFB4A2;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+input {
+    height: 50px;
+    border: 1px solid #FFCDB2;
+    border-radius: 10px;
+    text-indent: 8px;
+    font-size: 20px;
+}
+
+.inputText {
+    width: 200px;
+}
+
+.inputRating {
+    width: 100px;
+}
+
+.inputFile {
+    width: 350px;
+    padding: 0.75% 0.75%;
+    cursor: pointer;
+}
+
+.inputArea {
+    width: 300px;
+}
+
+button {
+    background-color: #B5838D;
+    color: beige;
+    width: 50px;
+    height: 49px;
+    margin-left: 5px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.submitButton {
+    background-color: #B5838D;
+    color: beige;
+    width: 150px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.img {
+    width: 200px;
+    height: auto;
+}
+
+.alert {
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #6D6875;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 94%;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    border-style: hidden;
+    box-shadow: 0 0 0 2px #E5989B;
+    overflow: hidden;
+}
+
+thead {
+    font-size: 20px;
+    background-color: #E5989B;
+}
+
+tbody {
+    font-size: 18px;
+}
+
+td, th {
+    padding: 8px;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+td > input[type='number']{
+    width: 55px;
+} 
+
+tbody > tr:nth-child(odd) {
+    background-color: #FFE3D3;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: #FFF4EF;
+}
+
+.ratingColumn {
+    width: 60px;
+}
+
+.customButton {
+    padding: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+.customButton2 {
+    padding: 8px;
+    width: 150px;
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+
+.sorting {
+    border: 2px solid #FFB4A2;
+    border-radius: 20px;
+    padding: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sorting > form {
+    border: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}

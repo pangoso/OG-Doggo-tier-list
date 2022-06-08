@@ -1,0 +1,28 @@
+{
+    "doggos":[
+      {
+        "race": "Labrador Retriever",
+        "image": "labrador.jpeg",
+        "rating": "10",
+        "reason": "Pure perfection"
+      },
+      {
+        "race": "Kundel",
+        "image": "kundel.jpeg",
+        "rating": "8",
+        "reason": "No pure breed doesn't mean no pure love"
+      },
+      {
+        "race": "Husky",
+        "image": "husky.jpeg",
+        "rating": "6",
+        "reason": "Drama queen"
+      },
+      {
+        "race": "Pomeranian",
+        "image": "pomeranian.png",
+        "rating": "3",
+        "reason": "Karens' dog"
+      }
+    ]
+    }
